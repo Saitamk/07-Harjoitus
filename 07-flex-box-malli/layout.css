@@ -1,0 +1,31 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.parent > * {
+  flex-basis: 0px;
+  flex-grow: 1;
+  order: 2;
+}
+.iso-sininen .color-blue {
+  flex-grow: 2;
+}
+.vihrea-eka .color-green {
+  order: 1;
+}
+.color-red {
+  padding: 1rem;
+  background-color: red;
+}
+.color-blue {
+  padding: 1rem;
+  background-color: blue;
+}
+.color-green {
+  padding: 1rem;
+  background-color: green;
+}
